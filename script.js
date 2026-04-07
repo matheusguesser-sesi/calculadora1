@@ -5,7 +5,7 @@ function calcular() {
 
     let resultado = 0;
 
-    if (isNaN(num1)|| isNaN(num2)) {
+    if (isNaN(num1) || isNaN(num2)) {
         alert("Garanta que os dois números foram informados corretamente!")
     }
 
@@ -14,19 +14,19 @@ function calcular() {
     }
 
     if (operacao === "soma") {
-        let resultado = num1 + num2;
+        resultado = num1 + num2;
     }
 
     if (operacao === "subtracao") {
-        let resultado = num1 - num2;
+        resultado = num1 - num2;
     }
 
     if (operacao === "multiplicacao") {
-        let resultado = num1 * num2;
+        resultado = num1 * num2;
     }
 
     if (operacao === "divisao") {
-        let resultado = num1 / num2;
+        resultado = num1 / num2;
     }
 
     document.getElementById("resultado").textContent = resultado;
