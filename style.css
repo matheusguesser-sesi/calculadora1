@@ -1,0 +1,41 @@
+body {
+    background-color: #3a3a3a;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.bloco{
+background-color: #272727;
+padding: 10px;
+border-radius: 10px;
+}
+
+h1{
+    color: azure;
+}
+
+input{
+    background-color: #202020;
+    color: azure;
+    border-radius: 5px;
+    outline: none;
+    border-color: azure;
+    padding: 5px;
+}
+
+select{
+    background-color: #272727;
+    color: orangered;
+    border-radius: 5px;
+    border-color: orangered;
+    padding: 5px;
+}
+
+button{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
