@@ -3,11 +3,13 @@ function calcular() {
     let num2 = Number(document.getElementById("num2").value);
     let operacao = document.getElementById("operacao").value
 
-    if (!num1 || !num2) {
-        alert("Garanta que os dois números foram informados!")
+    let resultado = 0;
+
+    if (isNaN(num1)|| isNaN(num2)) {
+        alert("Garanta que os dois números foram informados corretamente!")
     }
 
-    if (num1 === 0 || num2 === 0 && operacao === "divisao") {
+    if ((num1 === 0 || num2 === 0) && operacao === "divisao") {
         alert("Impossível dividir por ZERO!")
     }
 
